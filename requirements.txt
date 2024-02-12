@@ -1,4 +1,4 @@
 streamlit 
 requests
 numpy
-pandas<2.0.0
+pandas

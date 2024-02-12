@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import requests
-
+import pandas as pd
 
 def bring_poster(movie):
     response = requests.get(
@@ -25,7 +25,7 @@ def recommend(movie):
 
 
 st.title("Movie Recommender")
-movies = pickle.load(open("movies.pkl", 'rb'))
+movies = pd.read_pickle("file.pkl")
 movies_list = movies['title'].values
 selected_movie = st.selectbox("Choose your movie", movies_list)
 
