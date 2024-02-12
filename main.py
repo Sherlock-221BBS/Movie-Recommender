@@ -25,7 +25,7 @@ def recommend(movie):
 
 
 st.title("Movie Recommender")
-movies = pd.read_pickle("file.pkl")
+movies = pd.read_pickle("movies.pkl")
 movies_list = movies['title'].values
 selected_movie = st.selectbox("Choose your movie", movies_list)
 
