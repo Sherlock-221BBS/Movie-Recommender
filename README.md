@@ -2,6 +2,7 @@
 This is a simple movie recommender built using the concept of word vectors, cosine similarity. TFIDF vectors are used to create the vectors for each movie. 
 
 To open **Stremlit APP** click here:
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://movie-recommender-taki-hasan.streamlit.app)
 
 The whole process of building this app can be divided into three parts - 
